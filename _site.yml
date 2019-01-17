@@ -1,14 +1,19 @@
-name: "Yay internet!"
 output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
-      href: about.html
+    - text: "Projects"
+      href: projects.html
+    - text: "Publications"
+      href: publications.html
+    - text: "CV"
+      href: easthausen_cv.pdf
     - icon: fa-envelope fa-lg
       href: mailto:<ijeasthausen@gmail.com>
     - icon: fa-github fa-lg
       href: http://github.com/ijeasthausen/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/imaanieasthausen/
 output:
   html_document
 

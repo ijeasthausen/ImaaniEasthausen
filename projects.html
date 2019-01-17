@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="projects.html">Projects</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+<li>
+  <a href="easthausen_cv.pdf">CV</a>
+</li>
+<li>
+  <a href="mailto:&lt;ijeasthausen@gmail.com&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/ijeasthausen/">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/imaanieasthausen/">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<style>
+p.caption {
+  font-size: 0.8em;
+}
+
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
+</style>
+<div id="subclinical-interstitial-lung-disease" class="section level2">
+<h2>Subclinical Interstitial Lung Disease</h2>
+<p>Interstital Lung Disease (ILD) refers to a family of diseases caused by scarring (fibrosis) and inflammation in the lungs. ILDs are progressive and ultimately lead to death through chronic, long-term oxygen deprivation. Idiopathic pulmonary fibrosis (IPF) is the most common ILD. The scientific community does not know what causes IPF, and there is currently no way to stop the disease from progressing.</p>
+<div class="figure">
+<img src="ipf_lung/Slide1.jpg" alt="Image modified from www.lungsandyou.com" class="center-image" />
+<p class="caption">Image modified from <a href="https://www.lungsandyou.com/facts/effects-of-ipf">www.lungsandyou.com</a></p>
+</div>
+<p><br />
+My <a href="http://www.cumc.columbia.edu/pulmonary/research/PICTOR">current lab group</a> focuses on better understanding the earliest stages of ILD in the hopes that our work will lead to earlier disease detection and intervention. We are particularly interested in a novel imaging biomarker of subclinical ILD called high attenutation areas (HAA). HAA is a quantitative measure of the amount of scarring in the lungs that is obtained from CT scans using an image-reading software.</p>
+<p>My research focuses on using biostatistical and epidemiological methods to better understand the natural variation of HAA in healthy adults. Defining “normal” HAA will help us to identify “abnormal” HAA and isolate those at high risk for developing ILD. In a manuscript that I am currently preparing for publication, I use a multi-ethnic, healthy, never-smoker sample of adults to develop a clinical prediction model that defines upper limits of normal with adjustment for an individual’s demographic and body size characteristics.</p>
+</div>
+<div id="lung-transplantation" class="section level2">
+<h2>Lung Transplantation</h2>
+<p>The number of people in need of lung trasplant worldwide far exceeds the number of available donor lungs contributing to wait list mortality. Since 2015, about 18% of those waiting for transplant died or were removed from the transplant list because they were too sick to undergo the procedure.</p>
+<p>My research in this area focused on identifying overlooked donor pools, such as older lung donors. In a <a href="https://www.ncbi.nlm.nih.gov/pubmed/24034167">previous paper</a>, I used a survival analysis to demonstrate that there is no difference in mortality among those receiving lungs from donors aged 56-64 when compared with those receiving lungs from donors ages 18-55. We hope that this evidence will encourage physicians to utilize lungs from donors in the 56-64 age category.</p>
+</div>
+<div id="the-hippo-signaling-pathway" class="section level2">
+<h2>The Hippo Signaling Pathway</h2>
+<p>As an undergraduate, I participated in the <a href="http://www.ugresearchsci.ucla.edu/amgenscholars.htm">Amgen Scholars Program at University of California Los Angeles</a> where I studied the Hippo signaling pathway in <a href="https://martinez-agosto.genetics.ucla.edu/rhome.html">Dr. Julian A. Martinez-Agosto’s lab</a>.<br />
+<img src="hippo_pathway.jpg" class="center-image" /></p>
+<p>The Hippo signaling pathway is a kinase cascade that regulates tissue growth and size. When activated, the Hippo signaling pathway indicates phosphorylation and deactivation of the transcriptional coactivator Yorkie. Yorkie is a pro-growth gene, and over-expression of Yorkie is associated with tumor growth. Deregulation of the Hippo pathway is seen in a wide range of human cancers including lung cancer, colon cander, ovarian cancer, liver cancer, and prostate cancer, and cancers ralated to the Hippo pathway tend to have particularly low survival rates.</p>
+<p>Although the core kinase cascade (shown above) is well understood, many of the upstream and downstream actors remain unknown. <a href="hippo_poster.pdf">My research</a> in this area focused on developing a better understanding of the mechanism by which overexpression of Yorkie leads to tumoringenesis by identifying downstream components of the pathway using a drosopila model.</p>
+</div>
+<div id="visualizing-pancreatic-beta-cells" class="section level2">
+<h2>Visualizing Pancreatic Beta-Cells</h2>
+<p>Pancreatic beta-cells are the major insulin producers in the pancreas, and the amount of beta cells provides important information about an individual’s health. Beta-cell mass in the pancreas provides doctors with information about diseases such as diabetes and insulinoma; too few beta-cells may indicate diabetes, while too many beta-cells may be an indicator of insulinoma.</p>
+<p>During my participation in the <a href="https://mdphd.weill.cornell.edu/summer-program">Gateways to the Laboratory Program</a> at the Weill Cornell/Rockefeller/Sloan-Kettering Tri-Institutional MD/Phd Program, I worked in <a href="https://www.mskcc.org/research-areas/labs/thomas-reiner">Dr. Thomas Reiner’s lab</a> where I focused on developing an imaging agent that selectively binds to pancreatic beta-cells <em>in vivo</em>. Read more about this project <a href="imaging_agent_poster.pdf">here</a>.</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
