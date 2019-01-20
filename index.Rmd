@@ -1,6 +1,13 @@
 ##Imaani Easthausen
 ###Master's in Biostatistics Student at Columbia University Mailman School of Public Health
 
+```{r fig.width=6, fig.height=10,fig.align="center",echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("front_page_pic.png")
+grid.raster(img)
+```
+
 I'm currently finishing up a Master's in Biostatistics at Columbia. I conduct research in [Dr. David Lederer's clinical epidemiology lab](http://www.cumc.columbia.edu/pulmonary/research/PICTOR). I'm passionate about using data and statistics to advance public health research and improve lives. 
 
 I love cooking, baking, trying new recipes, and finding interesting new ingredients around New York City. 
